@@ -37,7 +37,7 @@ Code examples for open source NLP analytics and lists of resources
 10. Plug weighted counts into your favorite machine learning algorithm
 
 
-#Common Bag of Words Analytics
+# Common Bag of Words Analytics
 1. K-means Clustering
 2. Classification
     1. [Logistic regression](https://en.wikipedia.org/wiki/Logistic_regression)
@@ -51,7 +51,7 @@ Code examples for open source NLP analytics and lists of resources
     1. [Latent Dirichlet allocation](Latent Dirichlet allocation)
 
 
-#Running Jupyter Notebook Examples
+# Running Jupyter Notebook Examples
 1. install python (recomend python 3)
     1.   on mac: `brew install python3`
 2. `pip3 install jupyter`
@@ -62,3 +62,5 @@ Code examples for open source NLP analytics and lists of resources
 6. "shift-return" runs each command
 7. `ctrl-c` from command line exits
 
+Examples in the repo:
+1. K-means clustering of movie subtitles with sci-kit learn. [(link)](https://github.com/david-hagar/NLP-Analytics/tree/master/python/sklearn)
