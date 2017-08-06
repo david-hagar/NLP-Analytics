@@ -49,3 +49,16 @@ Code examples for open source NLP analytics and lists of resources
 	5. [GloVe](https://nlp.stanford.edu/projects/glove/)
 5. Topic Modeling - identifies multiple "topic vectors" that sum in different amounts to for each document in the corpus.
 	6. [Latent Dirichlet allocation](Latent Dirichlet allocation)
+
+
+#Running Jupyter Notebook Examples
+1. install python (recomend python 3)
+	2. 	on mac: `brew install python3`
+2. `pip3 install jupyter`
+3. install any prerequisite packages (Ex. `pip3 install sklearn` 
+3. cd to directory where *.ipynb files are
+4. `jupyter notebook`
+5. this should open a web browser where you can launch each notebook
+6. "shift-return" runs each command
+7. `ctrl-c` from command line exits
+
