@@ -62,5 +62,5 @@ Code examples for open source NLP analytics and lists of resources
 6. "shift-return" runs each command
 7. `ctrl-c` from command line exits
 
-Examples in the repo:
+## Examples in the repo:
 1. K-means clustering of movie subtitles with sci-kit learn. [(link)](https://github.com/david-hagar/NLP-Analytics/tree/master/python/sklearn)
