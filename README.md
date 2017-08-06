@@ -4,24 +4,24 @@ Code examples for open source NLP analytics and lists of resources
 # Resources
 
 1. Java
-  2. [OpenNLP](https://opennlp.apache.org/)
+  1. [OpenNLP](https://opennlp.apache.org/)
 2. Python
-  3.   [scikit-learn](http://scikit-learn.org/stable/)
+  1.   [scikit-learn](http://scikit-learn.org/stable/)
     4. [TFIDF](http://scikit-learn.org/stable/modules/feature_extraction.html)
   5. [nltk](http://www.nltk.org/)
   5. [spacy.io](https://spacy.io) - part of speech and entity extraction
   6. [Gensim](https://radimrehurek.com/gensim/) - tfidf, word2vec and others
 7. C
-  8.   [Senna](https://ronan.collobert.com/senna/)
+  1.   [Senna](https://ronan.collobert.com/senna/)
 9. DataSets
-  10. [nltk datasets](http://www.nltk.org/nltk_data/) 
+  1. [nltk datasets](http://www.nltk.org/nltk_data/) 
 
 
 # Bag Of Words Feature Extraction
 
 1. Clean text of noise content (Ex. email headers and signatures, non-text documents, bad html tags)
 1. Tokenize each document into a list of features and feature counts. Features can be:
-  2. sequence of non-whitespace chatacters (most common)
+  1. sequence of non-whitespace chatacters (most common)
   3. character n-grams ( Ex. "Hello world" -> "he" "el" "ll" "lo" "o " " w" "wo" ...)
   4. word n-grams (Ex. "The brown fox" -> "the" "the brown" "brown" "brown fox")
   5. grammar parsed noun and verb phrases plus words
