@@ -22,14 +22,15 @@ Code examples for open source NLP analytics and lists of resources
 1. Clean text of noise content (Ex. email headers and signatures, non-text documents, bad html tags)
 1. Tokenize each document into a list of features and feature counts. Features can be:
     1. sequence of non-whitespace chatacters (most common)
-    3. character n-grams ( Ex. "Hello world" -> "he" "el" "ll" "lo" "o " " w" "wo" ...)
+    3. character n-grams ( Ex. "Hello world" -> "he" "el" "ll" "lo" "o " " w" "wo" ...). Note, character n-grams are resistent to OCR errors, misspellings, and match on partial root words.
     4. word n-grams (Ex. "The brown fox" -> "the" "the brown" "brown" "brown fox")
     5. grammar parsed noun and verb phrases plus words
+    5. language specific word parsing like Chinese, German, etc.
     5. word hashes modulo N
+2. Remove stopwords like "a", "an", "the", "for", etc.
 6. Optional word transforms
-    1. remove stopwords
-    8. [stem](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html)  ("walks" -> "walk", "walking" -> "walk" )
-    9. lematization ("are" -> "be",  "is" -> "be") 
+    1. [stem](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html)  ("walks" -> "walk", "walking" -> "walk" )
+    2. lematization ("are" -> "be",  "is" -> "be") 
 6. Assemble a global document count for each word 
 7. Form vocabulary from document frequencies bettween 90% of documents to 2 documents.
 8. Build [TDIDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) wieghts from doc counts
@@ -47,8 +48,8 @@ Code examples for open source NLP analytics and lists of resources
     1. [Latent Semantic Analysis](https://en.wikipedia.org/wiki/Latent_semantic_analysis)
     4. [Word2Vec](https://en.wikipedia.org/wiki/Word2vec)
     5. [GloVe](https://nlp.stanford.edu/projects/glove/)
-5. Topic Modeling - identifies multiple "topic vectors" that sum in different amounts to for each document in the corpus.
-    1. [Latent Dirichlet allocation](Latent Dirichlet allocation)
+5. Topic Modeling - identifies multiple "topic vectors" that sum in different amounts to form each document in the corpus.
+    1. [Latent Dirichlet allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)
 
 
 # Running Jupyter Notebook Examples
@@ -62,5 +63,5 @@ Code examples for open source NLP analytics and lists of resources
 6. "shift-return" runs each command
 7. `ctrl-c` from command line exits
 
-## Examples in the repo:
+## Examples in this repo:
 1. K-means clustering of movie subtitles with sci-kit learn. [(link)](https://github.com/david-hagar/NLP-Analytics/tree/master/python/sklearn)
