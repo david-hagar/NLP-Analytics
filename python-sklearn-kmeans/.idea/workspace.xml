@@ -22,9 +22,16 @@
       </file>
     </leaf>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/kmeans_clustering.ipynb" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="210" />
-    <option name="y" value="206" />
+    <option name="x" value="254" />
+    <option name="y" value="181" />
     <option name="width" value="1878" />
     <option name="height" value="1085" />
   </component>
@@ -88,7 +95,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="210" y="206" width="1878" height="1085" extended-state="0" />
+    <frame x="254" y="181" width="1878" height="1085" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
