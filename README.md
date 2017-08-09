@@ -7,7 +7,7 @@ Code examples for open source NLP analytics and lists of resources
     1. [OpenNLP](https://opennlp.apache.org/)
 2. Python
     1. [scikit-learn](http://scikit-learn.org/stable/)
-    4. [TFIDF](http://scikit-learn.org/stable/modules/feature_extraction.html)
+        1. [TFIDF](http://scikit-learn.org/stable/modules/feature_extraction.html)
     5. [nltk](http://www.nltk.org/)
     5. [spacy.io](https://spacy.io) - part of speech and entity extraction
     6. [Gensim](https://radimrehurek.com/gensim/) - tfidf, word2vec and others
