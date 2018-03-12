@@ -1,6 +1,9 @@
 # NLP-Analytics
 Code examples for open source NLP analytics and lists of resources
 
+# Presentations
+1. [NLP feature engineering](https://docs.google.com/presentation/d/1-UJ-6HPT64G6D7ZyHJLOY7TS3xEW3vZ1wupBQLMenEY/edit?usp=sharing)
+
 # Resources
 
 1. Java
@@ -14,7 +17,7 @@ Code examples for open source NLP analytics and lists of resources
 7. C
     1. [Senna](https://ronan.collobert.com/senna/)
 9. DataSets
-    1. [nltk datasets](http://www.nltk.org/nltk_data/) 
+    1. [nltk datasets](http://www.nltk.org/nltk_data/)
 
 
 # Bag Of Words Feature Extraction
@@ -30,8 +33,8 @@ Code examples for open source NLP analytics and lists of resources
 2. Remove stopwords like "a", "an", "the", "for", etc.
 6. Optional word transforms
     1. [stem](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html)  ("walks" -> "walk", "walking" -> "walk" )
-    2. lematization ("are" -> "be",  "is" -> "be") 
-6. Assemble a global document count for each word 
+    2. lematization ("are" -> "be",  "is" -> "be")
+6. Assemble a global document count for each word
 7. Form vocabulary from document frequencies bettween 90% of documents to 2 documents.
 8. Build [TDIDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) wieghts from doc counts
 9. Multiply document counts by TFIDF weight and optionally normalize to Euclidian length of 1.
@@ -56,7 +59,7 @@ Code examples for open source NLP analytics and lists of resources
 1. install python (recomend python 3)
     1.   on mac: `brew install python3`
 2. `pip3 install jupyter`
-3. install any prerequisite packages (Ex. `pip3 install sklearn` 
+3. install any prerequisite packages (Ex. `pip3 install sklearn`
 3. cd to directory where *.ipynb files are
 4. `jupyter notebook`
 5. this should open a web browser where you can launch each notebook
